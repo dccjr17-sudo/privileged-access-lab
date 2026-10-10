@@ -1,0 +1,13 @@
+{
+  "PA100": {
+    "target": "APP-SERVER-01",
+    "allowed_requesters": ["E101"],
+    "approver_id": "E901",
+    "max_duration_minutes": 30,
+    "approval_required": true,
+    "self_approval_allowed": false,
+    "allowed_purpose": "approved patch maintenance",
+    "rotate_after_use": true,
+    "allowed_actions": ["check_patch_status", "apply_approved_patch"]
+  }
+}
