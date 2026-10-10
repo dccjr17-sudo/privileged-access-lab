@@ -4,7 +4,7 @@ Guided, AI-assisted local simulation of CyberArk-style PAM concepts for fictiona
 
 ## Status
 
-Core guided exercises completed with 17 personal evidence screenshots. Both exercised sessions are CLOSED with access_granted false. All 10 automated tests passed. The portfolio package includes source, policies, tests, documentation, and evidence; publication is pending.
+Core guided exercises completed with 17 personal evidence screenshots. Both exercised sessions are CLOSED with access_granted false. All 10 automated tests passed. The portfolio includes source, policies, tests, documentation, and evidence.
 
 ## Run and review
 
