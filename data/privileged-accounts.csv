@@ -1,0 +1,4 @@
+account_id,account_name,target,account_type,owner_id,credential_reference
+PA100,lab-server-admin,APP-SERVER-01,LocalAdministrator,E901,fictional-secret-PA100
+PA101,lab-database-admin,DB-SERVER-01,DatabaseAdministrator,E901,fictional-secret-PA101
+PA102,lab-backup-service,BACKUP-SERVER-01,ServiceAccount,E901,fictional-secret-PA102
