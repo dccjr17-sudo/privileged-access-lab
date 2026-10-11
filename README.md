@@ -4,11 +4,13 @@ Guided, AI-assisted local simulation of CyberArk-style PAM concepts for fictiona
 
 ## Status
 
-Core guided exercises completed with 17 personal evidence screenshots. Both exercised sessions are CLOSED with access_granted false. All 10 automated tests passed. The portfolio includes source, policies, tests, documentation, and evidence.
+Guided exercises completed with 28 personal evidence screenshots. Both ordinary sessions and the emergency session are CLOSED with access_granted false; emergency post-use review is COMPLETED. All 23 automated tests passed. The portfolio includes source, policies, tests, documentation, and evidence.
 
 ## Run and review
 
 See [reproduction instructions](docs/reproduce.md), [personal results](docs/lab-results.md), and [evidence index](evidence/README.md).
+
+The [safe design](docs/safe-design.md) defines account placement and responsibilities. The [emergency design](docs/break-glass-design.md) documents the separate five-minute incident workflow and mandatory post-use review.
 
 Run `python -m unittest discover -s tests -v` for deterministic checks without modifying personal exercise state. Python 3.10 or newer is required; no additional packages are needed.
 
@@ -25,6 +27,8 @@ Jamie, an IT analyst, needs temporary administrative access to a fictional serve
 5. Record simulated session commands and block actions outside the approved scope.
 6. Record fictional session credential metadata changing from version 1 to 2 at closure. Block further activity on the closed session.
 7. Validate denied requests, expiry, revocation, and audit records; publish source, checks, and evidence.
+8. Onboard fictional accounts with duplicate, owner, safe, and type checks; require a separate access policy.
+9. Exercise incident-linked emergency access with independent approval, recovery-only activity, closure, and post-use review.
 
 ## Boundaries
 
