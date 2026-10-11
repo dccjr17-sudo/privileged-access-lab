@@ -1,0 +1,10 @@
+{
+  "account_id": "PA100",
+  "target": "APP-SERVER-01",
+  "safe_id": "SAFE-WINDOWS-LAB",
+  "requester_id": "E101",
+  "approver_id": "E999",
+  "max_duration_minutes": 5,
+  "allowed_actions": ["check_service_status", "restart_service"],
+  "post_use_review_required": true
+}

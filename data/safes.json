@@ -1,0 +1,5 @@
+{
+  "SAFE-WINDOWS-LAB": {"allowed_account_type": "LocalAdministrator", "allowed_owners": ["E901"], "seed_accounts": ["PA100"]},
+  "SAFE-DATABASE-LAB": {"allowed_account_type": "DatabaseAdministrator", "allowed_owners": ["E901"], "seed_accounts": ["PA101"]},
+  "SAFE-SERVICE-LAB": {"allowed_account_type": "ServiceAccount", "allowed_owners": ["E901"], "seed_accounts": ["PA102"]}
+}
